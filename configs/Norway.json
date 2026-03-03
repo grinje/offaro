@@ -4,7 +4,7 @@
   "description": "",
   "author": "LB5ZH-4",
   "created": "2026-02-17T10:22:44.028Z",
-  "updated": "2026-03-03T09:23:03.488Z",
+  "updated": "2026-03-03T09:23:14.836Z",
   "tileSources": [
     {
       "id": "norgeskart-topo",
@@ -297,35 +297,6 @@
       },
       "configSourceRepoId": "default-asmes",
       "configSourceFile": "configs/Norway.json"
-    },
-    {
-      "id": "lora-coverage",
-      "name": "LoRa Coverage (TTN)",
-      "url": "http://ttnmapper.org/geojson/",
-      "attribution": "Custom GEOJSON Source",
-      "maxZoom": 18,
-      "minZoom": 0,
-      "type": "overlay",
-      "enabled": false,
-      "isOverlay": true,
-      "opacity": 0.8,
-      "zIndex": 1000,
-      "serviceType": "geojson",
-      "geojsonConfig": {
-        "url": "http://ttnmapper.org/geojson",
-        "style": {
-          "color": "#00FF00",
-          "weight": 2,
-          "opacity": 0.6,
-          "fillOpacity": 0.3
-        },
-        "updateInterval": 600000
-      },
-      "errorMessage": "TTN Mapper GeoJSON data temporarily unavailable. The service may be experiencing issues.",
-      "description": "LoRa network coverage map from TTN Mapper GeoJSON data. Shows The Things Network gateway coverage areas.",
-      "baseLayerCompatible": [
-        "all"
-      ]
     },
     {
       "id": "vegvesen-cameras",
